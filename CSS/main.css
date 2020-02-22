@@ -1,0 +1,98 @@
+/*  html {
+    background: grey;
+}  */
+
+ /*class that is within a class*/
+/* .class1.class2{
+    background:grey;
+}  */
+
+/*Edit Font Color*/
+/* html {
+    background: grey;
+    color: #232157;
+    } */
+
+/*Font Size*/
+html {
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    font-size: 16px; 16 pixels
+    font-weight: bolder;
+    }
+
+.class1 {
+    /* background :grey;
+    padding : 30px;
+    margin : 30px;
+    border:5px solid black;
+    border-radius:5px;
+    text-decoration: underline overline blue
+    dotted; */
+
+    /* background: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;  */
+
+    /*opacity:0.5;
+    visibility:hidden;
+    display: none;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: 1s spin infinite ease-in-out;
+     
+}
+
+ul {  /*unlisted the unlisted shopping cart)*/
+    list-style-type: none;
+
+}
+
+
+.class {
+    /* background: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;  */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    animation: 1s spin infinite ease-in-out;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotatse(360deg);
+    }
+
+}
+
+.portfolio1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.row{
+    display:flex;
+}
+
+.column{
+    flex: 33.33%
+    padding: 5px;
+}
